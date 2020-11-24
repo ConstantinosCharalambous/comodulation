@@ -9,12 +9,13 @@ The authoritative source for the archived InSight data, including all instrument
 
 THe following MATLAB codes are included for producing the main figures in the paper. The code can easily be adapted to produce the rest of the figures given the parameters suggested in the paper:
 
-Figure1a.m - Panel A of figure 2 (Note that the data to run the code are obtained from doi:)
+Figure1.m - Produces the spectrograms of Figure 1 (Note that the data to run the code are obtained from doi:...). This code can be adapted to produce the spectrograms of other figures in the manuscript with data from doi:10.18715/SEIS.INSIGHT.XB_2016, i.e. Figure 3, 4, 9, 10, 11 & 14. This code requires the removeLow.m function to run.
 
-Figure3.m - Panel B of figure 2 (Note that the data to run the code are obtained from doi:)
+Figure3b.m - Produces moment-matched time-series and recreates Figure 3b (Note that the data to run the code are obtained from doi:...). By obtaining data from doi:10.18715/SEIS.INSIGHT.XB_2016, this code can be adapted to reproduce other figures in the paper which incorporate the approach of the method of moments to match time series, i.e. Figure 1c, 2b & 14, 
 
-Figure8.m - Figure 3 (Note that the data to run the code are obtained from doi:)
+Figure3c.m - Produces comodulation relationships over various frequency bands as shown in Figure 3c. (Note that the data to run the code are obtained from doi:) This code can be adapted to recreate the relationships in Figures 2c,d 4 & 5 by obtaining data from doi:10.18715/SEIS.INSIGHT.XB_2016 .
 
+Figure8.m - This code produces the relationships shown in Figure 8. It uses the envelope of the VBB Z ground acceleration/pressure to obtain predictions of the wind speed over various frequency bands. It also plots the predictions against the measured wind speed. Finally it shows how the mean and variance i.e. the first two moments used to matched the time series, vary across the frequency range.   
 
 The specific data used in these codes can also be downloaded at the NASA Open Data Portal archive preserved at this archive. This data should be saved accordingly to the variable names as provided by the data in , in order to use the MATLAB codes as written.
 
