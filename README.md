@@ -17,6 +17,8 @@ Figure3c.m - Produces comodulation relationships over various frequency bands as
 
 Figure8.m - This code produces the relationships shown in Figure 8. It uses the envelope of the VBB Z ground acceleration/pressure to obtain predictions of the wind speed over various frequency bands. It also plots the predictions against the measured wind speed. Finally it shows how the mean and variance i.e. the first two moments used to matched the time series, vary across the frequency range.   
 
+SNRAnalysiscode.m - This code calculates and plots the environmental SNR given example datasets for Marsquake events. The output is identical to Figures 11 & 12 of the paper. By obtaining data from doi:10.18715/SEIS.INSIGHT.XB_2016, the code can be adapted to obtain environmental SNRs for all marsquakes as provided in the Marsquake Catalogue V2 doi:10.12686/a7 
+
 All software in this repository is licensed using GNU General Public License version 3.
 
 Affiliation: Imperial College London, UK. This research is in support of InSight Contribution Number 170.
