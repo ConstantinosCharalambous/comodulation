@@ -7,7 +7,7 @@ The code provided here can be run by obtaining the sample datasets as provided i
 
 The authoritative source for the archived InSight data, including all instruments is the Planetary Data System. SEIS data is archived at the [Geosciences node](https://pds-geosciences.wustl.edu/missions/insight/index.htm). Wind and pressure data from APSS sensors is archived at the [Atmospheres node](https://atmos.nmsu.edu/data_and_services/atmospheres_data/INSIGHT/insight.html).
 
-THe following MATLAB codes are included for producing the main figures in the paper. The code can easily be adapted to produce the rest of the figures given the parameters suggested in the paper:
+THe following MATLAB codes are included for producing the main figures in the paper. The code can easily be adapted to produce the rest of the figures given the parameters suggested in the paper, and can be further experimented by obtaining data as provided in the guidelines above:
 
 Figure1.m - Produces the spectrograms of Figure 1 (Note that the data to run the code are obtained from doi:...). This code can be adapted to produce the spectrograms of other figures in the manuscript with data from doi:10.18715/SEIS.INSIGHT.XB_2016, i.e. Figure 3, 4, 9, 10, 11 & 14. This code requires the removeLow.m function to run.
 
@@ -16,8 +16,6 @@ Figure3b.m - Produces moment-matched time-series and recreates Figure 3b (Note t
 Figure3c.m - Produces comodulation relationships over various frequency bands as shown in Figure 3c. (Note that the data to run the code are obtained from doi:) This code can be adapted to recreate the relationships in Figures 2c,d 4 & 5 by obtaining data from doi:10.18715/SEIS.INSIGHT.XB_2016 .
 
 Figure8.m - This code produces the relationships shown in Figure 8. It uses the envelope of the VBB Z ground acceleration/pressure to obtain predictions of the wind speed over various frequency bands. It also plots the predictions against the measured wind speed. Finally it shows how the mean and variance i.e. the first two moments used to matched the time series, vary across the frequency range.   
-
-The specific data used in these codes can also be downloaded at the NASA Open Data Portal archive preserved at this archive. This data should be saved accordingly to the variable names as provided by the data in , in order to use the MATLAB codes as written.
 
 All software in this repository is licensed using GNU General Public License version 3.
 
