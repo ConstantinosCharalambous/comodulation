@@ -22,4 +22,4 @@ All software in this repository is licensed using GNU General Public License ver
 
 Affiliation: Imperial College London, UK. This research is in support of InSight Contribution Number 170.
 
-Colormaps used in MATLAB obtained from: Stephen Cobeldick (2020). MatPlotLib Perceptually Uniform Colormaps (https://www.mathworks.com/matlabcentral/fileexchange/62729-matplotlib-perceptually-uniform-colormaps), MATLAB Central File Exchange. Retrieved November 24, 2020.
+Colormaps used in MATLAB obtained from: Stephen Cobeldick (2020). MatPlotLib Perceptually Uniform Colormaps (https://www.mathworks.com/matlabcentral/fileexchange/62729-matplotlib-perceptually-uniform-colormaps), MATLAB Central File Exchange. Retrieved November 24, 2020. See https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html for the turbo colormap.
