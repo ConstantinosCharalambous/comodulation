@@ -1,6 +1,6 @@
 # Comodulation_InSight
 
-Processing software for "A Comodulation Analysis of Atmospheric Energy Injection into the Ground Motion at InSight, Mars" Charalambous, C., Stott, A. E., Pike, T., McClean, J., Warren, T., Spiga, A., ... & Navarro, S. (2020).  Earth Space Sci. Open Arch., 48 (2020), 10.1002/essoar.10503206.1
+Processing software for "A Comodulation Analysis of Atmospheric Energy Injection into the Ground Motion at InSight, Mars" Charalambous, C., Stott, A. E., Pike, T., McClean, J., Warren, T., Spiga, A., ... & Navarro, S. (2020).  Earth Space Sci. Open Arch., 48 (2020), [10.1002/essoar.10503206.1](https://www.essoar.org/doi/10.1002/essoar.10503206.1) 
 
 The code provided here can be run by obtaining the sample datasets as provided in [doi:10.18715/IPGP.2020.KHW87ROO](https://doi.org/10.18715/IPGP.2020.KHW87ROO). These event files have been pre-processed in order to synchronize the timestamps of pressure, wind and ground acceleration and remove data gaps. All raw data and datasets used in the paper are available for download either at the IRIS Data Management Center, or through the [Mars SEIS Data service MSDS](https://www.seis-insight.eu/en/science/science-summary "SEIS InSight Homepage") doi:10.18715/SEIS.INSIGHT.XB_2016
 
